@@ -1,28 +1,27 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
+  "name": "fcc-learn-npm-package-json",
   "author": "J-Ulian",
-  "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
+  "description": "A project that does something awesome",
+  "keywords": [
+    "descriptive",
+    "related",
+    "words",
+    "freecodecamp"
+  ],
+  "license": "MIT",
+  "version": "1.2.0",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "dependencies": {
-    "express": "^4.17.1"
-  },
   "engines": {
-    "node": "12.x"
+    "node": "8.11.2"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  }
 }
